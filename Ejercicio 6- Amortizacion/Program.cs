@@ -10,18 +10,30 @@ namespace Ejercicio_6__Amortizacion
     {
         static void Main(string[] args)
         {
-            double n;
-            double couta;
-            float i, a, co;
-            n = 5;
-            Console.WriteLine("Ingrese el monto del capital prestado");
-            co = float.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese la cantidad de couta");
-            a = float.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese a que porcentaje es el prestamo");
-            i = float.Parse(Console.ReadLine());
-            couta = (co * i) / (1 - (1 + i)) - n;
-            Console.WriteLine("Este es el total de tu cuota mensual " + couta);
+            //formula para calcular cuota fija
+            ///de un prestamo usando el metodo frances de cuota fija
+
+            double Monto = 0;
+            int Plazos = 0;
+            double taza = 0;
+
+            Console.WriteLine("Ingrese el monto solicitado");
+            Monto = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese los plazos");
+            Plazos = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese la taza");
+            taza = double.Parse(Console.ReadLine());
+
+
+            //A = 1-(1+taza)^-plazos
+            int p = Plazos * -1;
+            double b = (1 + taza);
+            double A = (1 - Math.Pow(b, p)) / taza;
+
+            //Cuota Fija = Monto / A;
+            double Cuota_F = Monto / A;
+
+            Console.WriteLine("el valor de la cuota Fija es:{0:C} ", Cuota_F);
             Console.ReadKey();
         }
     }

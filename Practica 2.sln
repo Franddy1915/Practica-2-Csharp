@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 1- Par o Impar", "Practica 2-Ejercicio 1- Par o Impar\Ejercicio 1- Par o Impar.csproj", "{E7E5265C-A21B-46D3-B234-8C375B53F463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 2-Evaluacion por edad", "Ejercico 2-Evaluacion por edad\Ejercicio 2-Evaluacion por edad.csproj", "{D7B74997-8667-469A-A551-04E05D668AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 3-Evuluar x es mayor que y", "Ejercicio 3-Evuluar x es mayor que y\Ejercicio 3-Evuluar x es mayor que y.csproj", "{5118E746-9680-40E5-9F26-CA20DC56A72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 4- Eliga una opcion", "Ejercicio4- Eliga una opcion\Ejercicio 4- Eliga una opcion.csproj", "{28E10E45-9799-4FA9-86AB-C6612C9C5F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 5 - Retiro por pantalla", "Ejercicio5 - Retiro por pantalla\Ejercicio 5 - Retiro por pantalla.csproj", "{03B9EF40-18BF-4AE1-9438-77CF43558F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio 6- Amortizacion", "Ejercicio 6- Amortizacion\Ejercicio 6- Amortizacion.csproj", "{065BC783-2F57-4951-A7A8-24A7C485130C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E5265C-A21B-46D3-B234-8C375B53F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E5265C-A21B-46D3-B234-8C375B53F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E5265C-A21B-46D3-B234-8C375B53F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E5265C-A21B-46D3-B234-8C375B53F463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B74997-8667-469A-A551-04E05D668AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B74997-8667-469A-A551-04E05D668AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B74997-8667-469A-A551-04E05D668AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B74997-8667-469A-A551-04E05D668AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5118E746-9680-40E5-9F26-CA20DC56A72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5118E746-9680-40E5-9F26-CA20DC56A72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5118E746-9680-40E5-9F26-CA20DC56A72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5118E746-9680-40E5-9F26-CA20DC56A72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E10E45-9799-4FA9-86AB-C6612C9C5F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E10E45-9799-4FA9-86AB-C6612C9C5F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E10E45-9799-4FA9-86AB-C6612C9C5F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E10E45-9799-4FA9-86AB-C6612C9C5F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B9EF40-18BF-4AE1-9438-77CF43558F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B9EF40-18BF-4AE1-9438-77CF43558F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B9EF40-18BF-4AE1-9438-77CF43558F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B9EF40-18BF-4AE1-9438-77CF43558F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065BC783-2F57-4951-A7A8-24A7C485130C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065BC783-2F57-4951-A7A8-24A7C485130C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065BC783-2F57-4951-A7A8-24A7C485130C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065BC783-2F57-4951-A7A8-24A7C485130C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A2EC8D8-085B-48EB-AFDF-01B6BE043313}
+	EndGlobalSection
+EndGlobal
